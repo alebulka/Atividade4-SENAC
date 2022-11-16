@@ -1,7 +1,17 @@
-var escolha = window.prompt("escolha o combustível (considere '1-gasolina/ 2-álcool/ 3-diesel'):");
+var escolha = window.prompt("escolha o combustível (considere 'gasolina/ álcool/ diesel'):");
 
-if (escolha = "1" || "2" || "3") {
-    window.confirm("Obrigada pela preferência")
-} else {
-    window.alert("Opção inválida")
+
+switch (escolha) {
+    case gasolina:
+        window.confirm("Gasolina, obrigada pela preferência");
+        break;
+    case álcool:
+        window.confirm("Álcool, obrigada pela preferência");
+        break;
+    case diesel:
+        window.confirm("Diesel, obrigada pela preferência");
+        break;
+    default:
+        window.alert("Opção inválida");
+        break;
 }
