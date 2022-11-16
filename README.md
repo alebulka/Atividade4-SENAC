@@ -1,2 +1,2 @@
-# Atividade4-SENAC
+# Atividades-SENAC
 ### 👩‍💻 Repositório criado por fins educativos
