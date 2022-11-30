@@ -16,7 +16,7 @@
         <div class="first">
             <h2>Preencha o formulário para contato</h2>
         </div>
-        <form class="formulario">
+        <form class="formulario" name="form" onsubmit="return validar()">
                 <input type="text" id="nome" placeholder="Seu nome completo" required="required" name="nome"/>
                 <input type="email" id="email" placeholder="Digite seu e-mail" required="required" name="email">
                 <input type="text" id="title" placeholder="Escreva o assunto" required="required" name="title">
